@@ -1,0 +1,36 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/6.3.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'search',
+1 verbose cli   'angular' ]
+2 info using npm@3.10.3
+3 info using node@v6.3.0
+4 silly mapToRegistry name -/all
+5 silly mapToRegistry scope (from config) @antradford
+6 verbose mapToRegistry no registry URL found in config for scope @antradford
+7 silly mapToRegistry using default registry
+8 silly mapToRegistry registry https://registry.npmjs.org/
+9 silly mapToRegistry data Result {
+9 silly mapToRegistry   raw: '-/all',
+9 silly mapToRegistry   scope: null,
+9 silly mapToRegistry   escapedName: null,
+9 silly mapToRegistry   name: null,
+9 silly mapToRegistry   rawSpec: '-/all',
+9 silly mapToRegistry   spec: '-/all',
+9 silly mapToRegistry   type: 'local' }
+10 silly mapToRegistry uri https://registry.npmjs.org/-/all
+11 info updateIndex /Users/queerant/.npm/registry.npmjs.org/-/all/.cache.json
+12 verbose correctMkdir /Users/queerant/.npm correctMkdir not in flight; initializing
+13 verbose stack TypeError: Cannot read property '_updated' of undefined
+13 verbose stack     at /usr/local/lib/node_modules/npm/lib/cache/update-index.js:61:26
+13 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+13 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+14 verbose cwd /Users/queerant/GitHub/meteorapp/whatsapp
+15 error Darwin 16.0.0
+16 error argv "/usr/local/Cellar/node/6.3.0/bin/node" "/usr/local/bin/npm" "search" "angular"
+17 error node v6.3.0
+18 error npm  v3.10.3
+19 error Cannot read property '_updated' of undefined
+20 error If you need help, you may report this error at:
+20 error     <https://github.com/npm/npm/issues>
+21 verbose exit [ 1, true ]
