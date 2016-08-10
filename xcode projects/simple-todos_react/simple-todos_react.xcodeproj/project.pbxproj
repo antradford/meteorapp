@@ -1,0 +1,82 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		4A2FDBD41D5B145200A72242 /* client */ = {isa = PBXFileReference; lastKnownFileType = folder; name = client; path = "../../simple-todos_react/client"; sourceTree = "<group>"; };
+		4A2FDBD51D5B145200A72242 /* imports */ = {isa = PBXFileReference; lastKnownFileType = folder; name = imports; path = "../../simple-todos_react/imports"; sourceTree = "<group>"; };
+		4A2FDBD61D5B145200A72242 /* node_modules */ = {isa = PBXFileReference; lastKnownFileType = folder; name = node_modules; path = "../../simple-todos_react/node_modules"; sourceTree = "<group>"; };
+		4A2FDBD71D5B145200A72242 /* package.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = package.json; path = "../../simple-todos_react/package.json"; sourceTree = "<group>"; };
+		4A2FDBD81D5B145200A72242 /* server */ = {isa = PBXFileReference; lastKnownFileType = folder; name = server; path = "../../simple-todos_react/server"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4A2FDBCD1D5B143900A72242 = {
+			isa = PBXGroup;
+			children = (
+				4A2FDBD41D5B145200A72242 /* client */,
+				4A2FDBD51D5B145200A72242 /* imports */,
+				4A2FDBD61D5B145200A72242 /* node_modules */,
+				4A2FDBD71D5B145200A72242 /* package.json */,
+				4A2FDBD81D5B145200A72242 /* server */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		4A2FDBCE1D5B143900A72242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 4A2FDBD11D5B143900A72242 /* Build configuration list for PBXProject "simple-todos_react" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A2FDBCD1D5B143900A72242;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		4A2FDBD21D5B143900A72242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		4A2FDBD31D5B143900A72242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A2FDBD11D5B143900A72242 /* Build configuration list for PBXProject "simple-todos_react" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2FDBD21D5B143900A72242 /* Debug */,
+				4A2FDBD31D5B143900A72242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A2FDBCE1D5B143900A72242 /* Project object */;
+}
